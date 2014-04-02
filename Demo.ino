@@ -1,5 +1,11 @@
 /*this is a modified demo code where i was playing around with the display to get it to display different things. 
-I added my own font for letters.*/
+I added my own font for letters.
+#### Pins  
++ A, B, C, D - line select for two 74HC138
++ OE - Ouput Enable(active low) for 74HC595
++ STB - data latch for 74HC595
++ CLK - shift register clock input for 74HC595
+*/
 #include <LEDMatrix.h>
 #include "LEDMatrix.h"
 #include <TimerOne.h>
